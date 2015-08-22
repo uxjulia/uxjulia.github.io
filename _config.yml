@@ -9,3 +9,5 @@ twitter_username: uxjulia
 github_username:  uxjulia
 # Build settings
 markdown: kramdown
+future: false
+destination: _site
