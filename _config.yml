@@ -8,7 +8,7 @@ url: "http://dev.8thsq.co"
 twitter_username: uxjulia
 github_username:  uxjulia
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 future: false
 destination: _build
