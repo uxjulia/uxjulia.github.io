@@ -3,11 +3,12 @@ title: Julia Nguyen
 email: julia@8thsq.co
 description: > # this means to ignore newlines until "baseurl:"
   I'm what you get when you cross a User Experience Designer, Business Analyst and Scrum Master. 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://45.55.233.63" 
+baseurl: ""
+url: "http://dev.8thsq.co"
 twitter_username: uxjulia
 github_username:  uxjulia
 # Build settings
 markdown: kramdown
+highlighter: pygments
 future: false
 destination: build
