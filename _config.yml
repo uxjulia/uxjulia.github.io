@@ -11,4 +11,4 @@ github_username:  uxjulia
 markdown: kramdown
 highlighter: pygments
 future: false
-destination: build
+destination: _build
