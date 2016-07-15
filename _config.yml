@@ -11,9 +11,8 @@ email: ux@jvlia.co
 description: > # this means to ignore newlines until "baseurl:"
   This is a digital resume for Julia Nguyen built with [Jekyll](http://www.jekyllrb.com) and stylized with [Bootstrap](http://getbootstrap.com).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://github_username.github.com/julia" # the base hostname & protocol for your site
+url: "http://github_username.github.com" # the base hostname & protocol for your site
 twitter_username: uxjulia
 github_username:  uxjulia
-
 # Build settings
 markdown: kramdown
