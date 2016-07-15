@@ -1,12 +1,10 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
+@charset "utf-8";
+@import "bootstrap-sprockets";
 @import "bootstrap";
 @import "normalize";
 
 body {
-  font-family: $font-family-sans-serif;
+  font-family: "proxima-nova", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: $font-size-base;
 }
 
@@ -48,7 +46,7 @@ p.section-header {
     text-align: center;
   }
   .logo {
-    background-image: url("{{ "/assets/images/logo.png"  | prepend: site.baseurl }}");
+    background-image: image-url('logo.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

@@ -1,0 +1,78 @@
+/* Page Header */
+
+.header-logo {
+  color: #000000;
+  font-weight: 300;
+  text-transform: uppercase;
+  p 
+    margin-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: $font-size-base;
+    border-bottom-color: #c5c5c5;
+}
+
+.logo {
+  background-image: image-url('logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 175px;
+  max-height: 500px;
+}
+
+#logo {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+/* Content */
+
+.container {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+section {
+  display: table;
+  padding: 100px 0px 100px 0px;
+  border-top-style: #adadad;
+  border-bottom-color: #adadad;
+  border-bottom-width: 0px;
+  border-bottom-style: none;
+  border-image-width: 1;
+}
+
+h1.hi {
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: 300;
+  background: rgba(0, 116, 217, 0.8);
+  color: #fff;
+  padding: 15px;
+  margin: 20px 0px 20px 0px;
+  display: inline-block;
+}
+
+.intro-tagline {
+  font-weight: 300;
+  font-size: 3em;
+  min-height: 40px;
+  color: #0074D9;
+  line-height: 1;
+  margin: 20px 0;
+}
+
+
+
+p {
+}
+
+
+
+
+p {
+  text-align: justify;
+}

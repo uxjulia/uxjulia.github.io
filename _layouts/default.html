@@ -1,23 +1,30 @@
+---
+---
 <!DOCTYPE html>
 <html>
 
   {% include head.html %}
 
   <body>
-
+  <div class="container">
     {% include header.html %}
-    <div class ="container-fluid">
-    <div class="row">
-      <div class="page-content">
-        <div class="wrapper">
-          {{ content }}
-                  </div>
+    <div class="section-border">
+      <div class="container content">
+        {% include intro.html %}
       </div>
     </div>
+    <div class="section-border">
+      <div class="container content">
+        {% include experience.html %}
+      </div>
     </div>
-
+    <div class="section-border">
+      <div class="container content">
+        {% include skills.html %}
+      </div>
+    </div>
     {% include footer.html %}
-    {% include javascripts.html %}
+    </div>
 
   </body>
 
