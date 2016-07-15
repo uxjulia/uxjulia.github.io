@@ -16,3 +16,4 @@ twitter_username: uxjulia
 github_username:  uxjulia
 # Build settings
 markdown: kramdown
+keep: ["assets"]

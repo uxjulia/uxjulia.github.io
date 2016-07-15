@@ -46,9 +46,10 @@ p.section-header {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
+    font-size: 16px;
   }
   .logo {
-    background-image: url("{{ "/assets/images/logo.png"  | prepend: site.baseurl }}");
+    background-image: url("{{ "/assets/images/logo.svg"  | prepend: site.baseurl }}");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
